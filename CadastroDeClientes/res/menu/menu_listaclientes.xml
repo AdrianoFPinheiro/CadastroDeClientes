@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/novo"
+        android:title="Novo"
+        android:icon="@drawable/ic_novo"
+        android:showAsAction="always"/>  
+          
+    <item android:id="@+id/mapa"
+        android:title="Mapa"
+        android:icon="@drawable/ic_mapa"
+        android:showAsAction="always"/>
+    
+   <item 
+        android:title="Mais Opções"
+        android:icon="@drawable/ic_opcoes"
+        android:showAsAction="always">
+  
+	   <menu>
+		   	<item android:id="@+id/enviar_cliente"
+		        android:title="Enviar Cliente"
+		        android:icon="@drawable/ic_enviar"/>
+		    
+		    <item android:id="@+id/baixar_cliente"
+		        android:title="Baixar Cliente"
+		        android:icon="@drawable/ic_receber"/>
+		    
+		    <item android:id="@+id/preferencias"
+		        android:title="Preferências"
+		        android:icon="@drawable/ic_preferencias"/>
+	   </menu>
+	   
+    </item>
+
+</menu>
